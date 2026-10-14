@@ -1,0 +1,96 @@
+.contact-body {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    width: 1000px;
+}
+
+form {
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    gap: 10px;
+    background-color: rgb(250, 249, 249);
+    padding: 20px;
+    border-radius: 20px;
+
+}
+
+.div-button {
+    display: flex;
+    justify-content: center;
+}
+
+#button {
+    width: 30%;
+}
+
+.form-div {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+input {
+    height: 40px;
+    border-radius: 10px;
+}
+
+label {
+    font-weight: bold;
+    font-size: 17px;
+}
+
+.project-container {
+    /* height: 350px; */
+    display: grid;
+    margin: 10px;
+    gap: 5px;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding: 10px;
+    
+}
+
+
+.project-container1 {
+    background-color: rgb(192, 190, 190);
+    padding: 10px;
+    border-radius: 20px;
+    height: 550px;
+    
+}
+
+.project-1 {
+    height: 50%;
+    width: 100%;
+    border-radius: 10%;
+    image-rendering: pixelated;
+    object-fit: fill;
+    
+}
+.tags {
+    display: flex;
+    flex-direction: column;
+    font-weight: bold;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+main, .hero {
+    flex: 1;
+}
+
+.hero {
+    padding-top: 6rem;
+    padding-bottom: 6rem;
+}   
+
+.navbar-toggler-icon {
+    filter: invert(1);
+}

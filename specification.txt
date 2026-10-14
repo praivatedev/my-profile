@@ -1,0 +1,23 @@
+form
+input
+div
+button
+h1
+label
+img
+span
+footer
+h5
+
+css properties
+display
+justify-content 
+flex-direction
+align-items
+width
+background-color
+
+
+i used javascript to get submit the users data in the contacts page
+
+i utilized bootstrap's navbar feature
